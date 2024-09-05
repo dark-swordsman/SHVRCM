@@ -3,20 +3,15 @@ import StoreItemGrid from "./StoreItemGrid";
 
 export default function StoreItems() {
   const items = [
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
-    { name: "Item!" },
+    { name: "TurboFlex 3000" },
+    { name: "AeroLight Pro" },
+    { name: "Quantum Shield" },
+    { name: "VitaBoost X1" },
+    { name: "ZenWave Ultra" },
+    { name: "PulseGrip" },
+    { name: "EcoSphere Elite" },
+    { name: "NeuraSync 2.0" },
+    { name: "HydroLift Max" }
   ]
 
   return (

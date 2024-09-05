@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-800 text-blue-100">
+      <body className="bg-zinc-800 text-blue-100">
         <Navbar />
         {children}
       </body>

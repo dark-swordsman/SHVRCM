@@ -1,5 +1,6 @@
 import { Product } from "@prisma/client";
 import Link from "next/link";
+import priceFormat from "../../helper/priceFormat";
 
 interface ItemCardProps {
   product: Product;
@@ -14,7 +15,7 @@ export default function ItemCard({ product }: ItemCardProps) {
           <span className="text-3xl font-[300]">{product.name}</span>
           <span className="font-[300]">This product is like totally legit and awesome and stuff. It has a lot of features and is really cool.</span>
           <div className="h-full w-full relative">
-            <span className="absolute bottom-0 right-0 text-3xl font-semibold text-sky-400">${(product.price / 100).toFixed(2)}</span>
+            <span className="absolute bottom-0 right-0 text-3xl font-semibold text-sky-400">${priceFormat(product.price)}</span>
           </div>
         </div>
         <div className="absolute h-full w-full bg-cover bg-center group-hover:blur-md duration-75 bg-[url('/img/meta-quest-3-1.png')]" />

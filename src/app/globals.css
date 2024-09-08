@@ -1,3 +1,77 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    font-style: Thin;
+    font-weight: 100;
+    font-display: swap;
+    src: url(/fonts/Poppins-Thin.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: ExtraLight;
+    font-weight: 200;
+    font-display: swap;
+    src: url(/fonts/Poppins-Extralight.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Light;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/fonts/Poppins-Light.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Regular;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Poppins-Regular.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Medium;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/Poppins-Medium.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Semibold;
+    font-weight: 600;
+    font-display: swap;
+    src: url(/fonts/Poppins-Semibold.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/Poppins-Bold.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Extrabold;
+    font-weight: 800;
+    font-display: swap;
+    src: url(/fonts/Poppins-Extrabold.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: Black;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/fonts/Poppins-Black.woff2) format("woff2");
+  }  
+}

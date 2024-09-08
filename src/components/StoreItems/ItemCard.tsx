@@ -11,8 +11,8 @@ export default function ItemCard({ product }: ItemCardProps) {
     <div className="bg-zinc-600 group cursor-pointer duration-75 hover:border-sky-400 border-2 border-sky-700 rounded-2xl h-80 relative overflow-clip">
       <Link className="h-full w-full" href={`/products/${product.id}`}>
         <div className="z-10 blur-xl group-hover:blur-0 absolute top-0 left-0 w-full h-full invisible group-hover:visible bg-opacity-10 bg-black/60 duration-100 px-6 py-4 flex flex-col gap-4">
-          <span className="text-3xl font-semibold">{product.name}</span>
-          <span className="font-sans">This product is like totally legit and awesome and stuff. It has a lot of features and is really cool.</span>
+          <span className="text-3xl font-[300]">{product.name}</span>
+          <span className="font-[300]">This product is like totally legit and awesome and stuff. It has a lot of features and is really cool.</span>
           <div className="h-full w-full relative">
             <span className="absolute bottom-0 right-0 text-3xl font-semibold text-sky-400">${(product.price / 100).toFixed(2)}</span>
           </div>

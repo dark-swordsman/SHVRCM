@@ -1,4 +1,4 @@
-import StoreItems from "../components/StoreItems/StoreItems";
+import StoreItems from "../../components/StoreItems/StoreItems";
 
 export default function Home() {
   return (

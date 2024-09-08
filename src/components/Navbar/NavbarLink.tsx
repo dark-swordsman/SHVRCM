@@ -1,7 +1,9 @@
-export default function NavbarLink({ children = "null" }: { children: React.ReactNode }) {
+import Link from "next/link";
+
+export default function NavbarLink({ children = "null", href = "/" }: { children: React.ReactNode, href: string }) {
   return (
-    <div className="px-6 hover:bg-slate-700 cursor-pointer flex items-center">
+    <Link href={href} className="px-6 hover:bg-slate-700 cursor-pointer flex items-center">
       {children}
-    </div>
+    </Link>
   );
 }
